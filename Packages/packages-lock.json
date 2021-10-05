@@ -53,19 +53,10 @@
       }
     },
     "com.microsoft.mixedreality.webrtc": {
-      "version": "file:MixedReality/com.microsoft.mixedreality.webrtc-2.0.2.tgz",
+      "version": "file:../com.microsoft.mixedreality.webrtc-2.0.2/package",
       "depth": 0,
-      "source": "local-tarball",
+      "source": "local",
       "dependencies": {}
-    },
-    "com.microsoft.mixedreality.webrtc.samples": {
-      "version": "file:MixedReality/com.microsoft.mixedreality.webrtc.samples-2.0.2.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {
-        "com.microsoft.mixedreality.webrtc": "2.0.2",
-        "com.unity.textmeshpro": "1.4.1"
-      }
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
@@ -168,14 +159,13 @@
       }
     },
     "com.unity.webrtc": {
-      "version": "2.3.3-preview",
+      "version": "file:../com.unity.webrtc@2.3.3-preview",
       "depth": 0,
-      "source": "registry",
+      "source": "local",
       "dependencies": {
         "com.unity.modules.jsonserialize": "1.0.0",
         "com.unity.editorcoroutines": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
+      }
     },
     "com.unity.xr.legacyinputhelpers": {
       "version": "2.1.7",
