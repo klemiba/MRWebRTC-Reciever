@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\kleme\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\kleme\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_argo receiver.-1212563744.00" t="ExcludeRecursive" />
+    <e p="E:\Unity Projects\AR9\argo receiver" t="IncludeRecursive">
+      <e p="argo receiver.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="AR9" t="Include">
+          <e p="ARGO" t="Include">
+            <e p="Classes" t="Include">
+              <e p="MaintenanceProtocol.cs" t="Include" />
+              <e p="ProtocolTask.cs" t="Include" />
+              <e p="SensorData.cs" t="Include" />
+              <e p="SimpleJSON.cs" t="Include" />
+            </e>
+            <e p="MRWebRTC" t="Include">
+              <e p="CustomPeerConnection.cs" t="Include" />
+              <e p="CustomSignaler.cs" t="Include" />
+              <e p="CustomVideoRenderer.cs" t="Include" />
+              <e p="MrWebRtcConnectionManager.cs" t="Include" />
+              <e p="PassWebcamSource.cs" t="Include" />
+              <e p="SimpleWebcamRenderer.cs" t="Include" />
+              <e p="WebRTCClient.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="MixedRealityToolkit.Generated" t="Include">
+          <e p="link.xml" t="Include" />
+        </e>
+        <e p="MRTK" t="Include">
+          <e p="Extensions" t="Include">
+            <e p="HandPhysicsService" t="Include">
+              <e p="Examples" t="Include">
+                <e p="PhysicsTriggerEventReadout.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="ChannelPacker.shader" t="Include" />
+            <e p="DepthBufferPostProcess.shader" t="Include" />
+            <e p="InstancedColored.shader" t="Include" />
+            <e p="InvisibleShader.shader" t="Include" />
+            <e p="MixedRealityShaderUtils.cginc" t="Include" />
+            <e p="MixedRealityStandard.shader" t="Include" />
+            <e p="MixedRealityStandardRedBorder.shader" t="Include" />
+            <e p="MixedRealityTextMeshPro.shader" t="Include" />
+            <e p="MRTK_Wireframe.shader" t="Include" />
+            <e p="Text3DShader.shader" t="Include" />
+          </e>
+        </e>
+        <e p="NavMeshComponents" t="Include">
+          <e p="Editor" t="Include">
+            <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
+            <e p="NavMeshLinkEditor.cs" t="Include" />
+            <e p="NavMeshModifierEditor.cs" t="Include" />
+            <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
+            <e p="NavMeshSurfaceEditor.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="NavMeshLink.cs" t="Include" />
+            <e p="NavMeshModifier.cs" t="Include" />
+            <e p="NavMeshModifierVolume.cs" t="Include" />
+            <e p="NavMeshSurface.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Packages" t="Include">
+          <e p="Microsoft.MixedReality.QR.0.5.2112" t="Include">
+            <e p="LICENSE.txt" t="Include" />
+            <e p="Unity" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Microsoft.MixedReality.QR.Editor.asmdef" t="Include" />
+                <e p="Microsoft.MixedReality.QR.Init.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Microsoft.VCRTForwarders.140.1.0.5" t="Include">
+            <e p="Unity" t="Include">
+              <e p="Editor" t="Include">
+                <e p="InitVCRTForwarders.cs" t="Include" />
+                <e p="Microsoft.VCRTForwarders.140.asmdef" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Microsoft.Windows.MixedReality.DotNetWinRT.0.5.1049" t="Include">
+            <e p="LICENSE.txt" t="Include" />
+            <e p="Unity" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Microsoft.Windows.MixedReality.DotNetWinRT.Editor.asmdef" t="Include" />
+                <e p="Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="NaCl.Net.0.1.13" t="Include">
+            <e p="lib" t="Include">
+              <e p="net45" t="Include">
+                <e p="NaCl.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="NetMQ.4.0.1.6" t="Include">
+            <e p="lib" t="Include">
+              <e p="net47" t="Include">
+                <e p="NetMQ.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Newtonsoft.Json.12.0.3" t="Include">
+            <e p="lib" t="Include">
+              <e p="net45" t="Include">
+                <e p="Newtonsoft.Json.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Opc.UaFx.Client.2.14.0" t="Include">
+            <e p="lib" t="Include">
+              <e p="net471" t="Include">
+                <e p="Opc.UaFx.Client.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Portable.BouncyCastle.1.8.6" t="Include">
+            <e p="lib" t="Include">
+              <e p="net40" t="Include">
+                <e p="BouncyCastle.Crypto.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="System.Buffers.4.5.1" t="Include">
+            <e p="lib" t="Include">
+              <e p="net461" t="Include">
+                <e p="System.Buffers.xml" t="Include" />
+              </e>
+            </e>
+            <e p="useSharedDesignerContext.txt" t="Include" />
+            <e p="version.txt" t="Include" />
+          </e>
+          <e p="System.Memory.4.5.4" t="Include">
+            <e p="lib" t="Include">
+              <e p="net461" t="Include">
+                <e p="System.Memory.xml" t="Include" />
+              </e>
+            </e>
+            <e p="useSharedDesignerContext.txt" t="Include" />
+            <e p="version.txt" t="Include" />
+          </e>
+          <e p="System.Runtime.CompilerServices.Unsafe.4.5.3" t="Include">
+            <e p="lib" t="Include">
+              <e p="net461" t="Include">
+                <e p="System.Runtime.CompilerServices.Unsafe.xml" t="Include" />
+              </e>
+            </e>
+            <e p="useSharedDesignerContext.txt" t="Include" />
+            <e p="version.txt" t="Include" />
+          </e>
+          <e p="System.Threading.Tasks.Extensions.4.5.4" t="Include">
+            <e p="lib" t="Include">
+              <e p="net461" t="Include">
+                <e p="System.Threading.Tasks.Extensions.xml" t="Include" />
+              </e>
+            </e>
+            <e p="useSharedDesignerContext.txt" t="Include" />
+            <e p="version.txt" t="Include" />
+          </e>
+          <e p="WebSocketSharp-netstandard.1.0.1" t="Include">
+            <e p="lib" t="Include">
+              <e p="net45" t="Include">
+                <e p="websocket-sharp.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Examples &amp; Extras" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Benchmark01.cs" t="Include" />
+              <e p="Benchmark01_UGUI.cs" t="Include" />
+              <e p="Benchmark02.cs" t="Include" />
+              <e p="Benchmark03.cs" t="Include" />
+              <e p="Benchmark04.cs" t="Include" />
+              <e p="CameraController.cs" t="Include" />
+              <e p="ChatController.cs" t="Include" />
+              <e p="EnvMapAnimator.cs" t="Include" />
+              <e p="ObjectSpin.cs" t="Include" />
+              <e p="ShaderPropAnimator.cs" t="Include" />
+              <e p="SimpleScript.cs" t="Include" />
+              <e p="SkewTextExample.cs" t="Include" />
+              <e p="TeleType.cs" t="Include" />
+              <e p="TextConsoleSimulator.cs" t="Include" />
+              <e p="TextMeshProFloatingText.cs" t="Include" />
+              <e p="TextMeshSpawner.cs" t="Include" />
+              <e p="TMP_DigitValidator.cs" t="Include" />
+              <e p="TMP_ExampleScript_01.cs" t="Include" />
+              <e p="TMP_FrameRateCounter.cs" t="Include" />
+              <e p="TMP_PhoneNumberValidator.cs" t="Include" />
+              <e p="TMP_TextEventCheck.cs" t="Include" />
+              <e p="TMP_TextEventHandler.cs" t="Include" />
+              <e p="TMP_TextInfoDebugTool.cs" t="Include" />
+              <e p="TMP_TextSelector_A.cs" t="Include" />
+              <e p="TMP_TextSelector_B.cs" t="Include" />
+              <e p="TMP_UiFrameRateCounter.cs" t="Include" />
+              <e p="TMPro_InstructionOverlay.cs" t="Include" />
+              <e p="VertexColorCycler.cs" t="Include" />
+              <e p="VertexJitter.cs" t="Include" />
+              <e p="VertexShakeA.cs" t="Include" />
+              <e p="VertexShakeB.cs" t="Include" />
+              <e p="VertexZoom.cs" t="Include" />
+              <e p="WarpTextExample.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Microsoft.MixedReality.QR.Editor.csproj" t="IncludeRecursive" />
+      <e p="Microsoft.VCRTForwarders.140.csproj" t="IncludeRecursive" />
+      <e p="Microsoft.Windows.MixedReality.DotNetWinRT.Editor.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
