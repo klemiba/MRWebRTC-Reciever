@@ -10,27 +10,6 @@
         <e p="MixedRealityToolkit.Generated" t="Include">
           <e p="link.xml" t="Include" />
         </e>
-        <e p="MRTK" t="Include">
-          <e p="Extensions" t="Include">
-            <e p="HandPhysicsService" t="Include">
-              <e p="Examples" t="Include">
-                <e p="PhysicsTriggerEventReadout.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="Shaders" t="Include">
-            <e p="ChannelPacker.shader" t="Include" />
-            <e p="DepthBufferPostProcess.shader" t="Include" />
-            <e p="InstancedColored.shader" t="Include" />
-            <e p="InvisibleShader.shader" t="Include" />
-            <e p="MixedRealityShaderUtils.cginc" t="Include" />
-            <e p="MixedRealityStandard.shader" t="Include" />
-            <e p="MixedRealityStandardRedBorder.shader" t="Include" />
-            <e p="MixedRealityTextMeshPro.shader" t="Include" />
-            <e p="MRTK_Wireframe.shader" t="Include" />
-            <e p="Text3DShader.shader" t="Include" />
-          </e>
-        </e>
         <e p="NavMeshComponents" t="Include">
           <e p="Editor" t="Include">
             <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
@@ -256,6 +235,61 @@
           </e>
         </e>
       </e>
+      <e p="com.microsoft.mixedreality.webrtc-2.0.2" t="Include">
+        <e p="package" t="Include">
+          <e p="Editor" t="Include">
+            <e p="CaptureCameraDrawer.cs" t="Include" />
+            <e p="ConfigurableIceServerDrawer.cs" t="Include" />
+            <e p="MicrophoneSourceEditor.cs" t="Include" />
+            <e p="Microsoft.MixedReality.WebRTC.Unity.Editor.asmdef" t="Include" />
+            <e p="PeerConnectionEditor.cs" t="Include" />
+            <e p="SdpTokenDrawer.cs" t="Include" />
+            <e p="ToggleLeftDrawer.cs" t="Include" />
+            <e p="VideoRendererEditor.cs" t="Include" />
+            <e p="WebcamSourceEditor.cs" t="Include" />
+          </e>
+          <e p="Runtime" t="Include">
+            <e p="Microsoft.MixedReality.WebRTC.Unity.asmdef" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Android.cs" t="Include" />
+              <e p="Attributes" t="Include">
+                <e p="CaptureCameraAttribute.cs" t="Include" />
+                <e p="EditorAttributes.cs" t="Include" />
+                <e p="SdpTokenAttribute.cs" t="Include" />
+              </e>
+              <e p="Media" t="Include">
+                <e p="AudioReceiver.cs" t="Include" />
+                <e p="AudioRenderer.cs" t="Include" />
+                <e p="AudioTrackSource.cs" t="Include" />
+                <e p="CustomVideoSource.cs" t="Include" />
+                <e p="MediaLine.cs" t="Include" />
+                <e p="MediaReceiver.cs" t="Include" />
+                <e p="MediaTrackSource.cs" t="Include" />
+                <e p="MicrophoneSource.cs" t="Include" />
+                <e p="SceneVideoSource.cs" t="Include" />
+                <e p="UniformColorVideoSource.cs" t="Include" />
+                <e p="VideoReceiver.cs" t="Include" />
+                <e p="VideoRenderer.cs" t="Include" />
+                <e p="VideoTrackSource.cs" t="Include" />
+                <e p="WebcamSource.cs" t="Include" />
+                <e p="WorkQueue.cs" t="Include" />
+              </e>
+              <e p="PeerConnection.cs" t="Include" />
+              <e p="Signaling" t="Include">
+                <e p="LocalOnlySignaler.cs" t="Include" />
+                <e p="NodeDssSignaler.cs" t="Include" />
+                <e p="Signaler.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="ARGBFeedShader.shader" t="Include" />
+              <e p="ARGBFeedShaderUnlit.shader" t="Include" />
+              <e p="YUVFeedShader.shader" t="Include" />
+              <e p="YUVFeedShaderUnlit.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="com.unity.webrtc@2.3.3-preview" t="Include">
         <e p="Editor" t="Include">
           <e p="CandidatePairGraphView.cs" t="Include" />
@@ -303,6 +337,8 @@
           <e p="Unity.WebRTC.Runtime.asmdef" t="Include" />
         </e>
       </e>
+      <e p="Microsoft.MixedReality.WebRTC.Unity.csproj" t="IncludeRecursive" />
+      <e p="Microsoft.MixedReality.WebRTC.Unity.Editor.csproj" t="IncludeRecursive" />
       <e p="Microsoft.VCRTForwarders.140.csproj" t="IncludeRecursive" />
       <e p="Microsoft.Windows.MixedReality.DotNetWinRT.Editor.csproj" t="IncludeRecursive" />
       <e p="MRWebRTC-Reciever.sln" t="IncludeFlat" />

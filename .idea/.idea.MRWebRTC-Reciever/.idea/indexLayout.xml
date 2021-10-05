@@ -17,14 +17,19 @@
       <Path>Library/PackageCache/com.unity.xr.management@4.0.1</Path>
       <Path>Packages</Path>
       <Path>ProjectSettings</Path>
+      <Path>com.microsoft.mixedreality.webrtc-2.0.2/package</Path>
       <Path>com.unity.webrtc@2.3.3-preview</Path>
     </explicitIncludes>
     <explicitExcludes>
       <Path>.git</Path>
       <Path>.idea</Path>
+      <Path>Documentation~</Path>
+      <Path>Editor</Path>
       <Path>Library</Path>
+      <Path>Runtime</Path>
       <Path>Temp</Path>
-      <Path>argo-mrapp</Path>
+      <Path>Tests</Path>
+      <Path>com.microsoft.mixedreality.webrtc-2.0.2</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>

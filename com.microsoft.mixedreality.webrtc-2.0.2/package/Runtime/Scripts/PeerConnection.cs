@@ -410,7 +410,7 @@ namespace Microsoft.MixedReality.WebRTC.Unity
                     bool wantsRecv = (mediaLine.Receiver != null);
                     // var wantsDir = Transceiver.DirectionFromSendRecv(wantsSend, wantsRecv);
                     var wantsDir = Transceiver.DirectionFromSendRecv(wantsSend, false);
-                    var streamIDList = new List<string> {"PC Stream App " + mediaLine.MediaKind};
+                    var streamIDList = new List<string> {"PcStreamApp" + mediaLine.MediaKind};
                     var settings = new TransceiverInitSettings
                     {
                         StreamIDs = streamIDList,
