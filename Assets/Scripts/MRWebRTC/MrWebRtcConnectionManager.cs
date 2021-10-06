@@ -25,13 +25,18 @@ public class MrWebRtcConnectionManager : MonoBehaviour {
 
         // Debug.Log("Disabling peer connection");
         mrwebrtcObject.GetComponent<WebRTCClient>().peerConnection.gameObject.SetActive(false);
+        mrwebrtcObject.GetComponent<WebRTCClient>().StopSignaler();
+        mrwebrtcObject.GetComponent<WebRTCClient>().cSignaler.gameObject.SetActive(false);
+        
         Debug.Log("Stopped the connection");
         
         yield return new WaitForSeconds(3);
         
         // Debug.Log("Restarting the connection");
-        // mrwebrtcObject.GetComponent<WebRTCClient>().StartSignaler();
+        mrwebrtcObject.GetComponent<WebRTCClient>().cSignaler.gameObject.SetActive(true);
+        mrwebrtcObject.GetComponent<WebRTCClient>().StartSignaler();
         mrwebrtcObject.GetComponent<WebRTCClient>().peerConnection.gameObject.SetActive(true);
+        // mrwebrtcObject.GetComponent<WebRTCClient>().StartLocalVideoStream();
         Debug.Log("Restarted the connection");
     }
 
