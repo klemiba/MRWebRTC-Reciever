@@ -779,5 +779,10 @@ PrefabInstance:
       propertyPath: webRtcClient
       value: 
       objectReference: {fileID: 1839083569}
+    - target: {fileID: 8665225165954494254, guid: eddbd6c941dcce64d885394cde60ff33,
+        type: 3}
+      propertyPath: initialSdpType
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eddbd6c941dcce64d885394cde60ff33, type: 3}

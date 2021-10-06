@@ -115,48 +115,6 @@
             </e>
           </e>
         </e>
-        <e p="Samples" t="Include">
-          <e p="WebRTC" t="Include">
-            <e p="2.3.3-preview" t="Include">
-              <e p="Example" t="Include">
-                <e p="Bandwidth" t="Include">
-                  <e p="BandwidthSample.cs" t="Include" />
-                </e>
-                <e p="ChangeCodecs" t="Include">
-                  <e p="ChangeCodecsSample.cs" t="Include" />
-                </e>
-                <e p="DataChannel" t="Include">
-                  <e p="DataChannelSample.cs" t="Include" />
-                </e>
-                <e p="MediaStream" t="Include">
-                  <e p="MediaStreamSample.cs" t="Include" />
-                </e>
-                <e p="MultiplePeerConnections" t="Include">
-                  <e p="MultiplePeerConnectionsSample.cs" t="Include" />
-                </e>
-                <e p="MultiVideoReceive" t="Include">
-                  <e p="MultiVideoReceiveSample.cs" t="Include" />
-                </e>
-                <e p="MungeSDP" t="Include">
-                  <e p="MungeSDPSample.cs" t="Include" />
-                </e>
-                <e p="PeerConnection" t="Include">
-                  <e p="PeerConnectionSample.cs" t="Include" />
-                </e>
-                <e p="Stats" t="Include">
-                  <e p="StatsSample.cs" t="Include" />
-                </e>
-                <e p="TrickleIce" t="Include">
-                  <e p="TrickleIceSample.cs" t="Include" />
-                </e>
-                <e p="Unity.WebRTC.Samples.asmdef" t="Include" />
-                <e p="VideoReceive" t="Include">
-                  <e p="VideoReceiveSample.cs" t="Include" />
-                </e>
-              </e>
-            </e>
-          </e>
-        </e>
         <e p="Scripts" t="Include">
           <e p="MRWebRTC" t="Include">
             <e p="CustomPeerConnection.cs" t="Include" />
@@ -290,53 +248,6 @@
           </e>
         </e>
       </e>
-      <e p="com.unity.webrtc@2.3.3-preview" t="Include">
-        <e p="Editor" t="Include">
-          <e p="CandidatePairGraphView.cs" t="Include" />
-          <e p="DataChannelGraphView.cs" t="Include" />
-          <e p="GraphView.cs" t="Include" />
-          <e p="InboundRTPStreamGraphView.cs" t="Include" />
-          <e p="MediaSourceGraphView.cs" t="Include" />
-          <e p="MediaStreamTrackGraphView.cs" t="Include" />
-          <e p="OutboundRTPStreamGraphView.cs" t="Include" />
-          <e p="PeerListView.cs" t="Include" />
-          <e p="PeerStatsView.cs" t="Include" />
-          <e p="TransportGraphView.cs" t="Include" />
-          <e p="Unity.WebRTC.Editor.asmdef" t="Include" />
-          <e p="WebRTCStats.cs" t="Include" />
-        </e>
-        <e p="Runtime" t="Include">
-          <e p="AssemblyInfo.cs" t="Include" />
-          <e p="Resources" t="Include">
-            <e p="Flip.shader" t="Include" />
-          </e>
-          <e p="Scripts" t="Include">
-            <e p="AudioStreamTrack.cs" t="Include" />
-            <e p="Context.cs" t="Include" />
-            <e p="Internal" t="Include">
-              <e p="IntPtrExtension.cs" t="Include" />
-              <e p="Marshalling.cs" t="Include" />
-            </e>
-            <e p="MediaStream.cs" t="Include" />
-            <e p="MediaStreamTrack.cs" t="Include" />
-            <e p="RenderTextureDepth.cs" t="Include" />
-            <e p="RTCDataChannel.cs" t="Include" />
-            <e p="RTCErrorException.cs" t="Include" />
-            <e p="RTCIceCandidate.cs" t="Include" />
-            <e p="RTCPeerConnection.cs" t="Include" />
-            <e p="RTCRtpReceiver.cs" t="Include" />
-            <e p="RTCRtpSender.cs" t="Include" />
-            <e p="RTCRtpTransceiver.cs" t="Include" />
-            <e p="RTCStats.cs" t="Include" />
-            <e p="RTPParameters.cs" t="Include" />
-            <e p="VideoStreamTrack.cs" t="Include" />
-            <e p="WeakReferenceTable.cs" t="Include" />
-            <e p="WebRTC.AsyncOperation.cs" t="Include" />
-            <e p="WebRTC.cs" t="Include" />
-          </e>
-          <e p="Unity.WebRTC.Runtime.asmdef" t="Include" />
-        </e>
-      </e>
       <e p="Microsoft.MixedReality.WebRTC.Unity.csproj" t="IncludeRecursive" />
       <e p="Microsoft.MixedReality.WebRTC.Unity.Editor.csproj" t="IncludeRecursive" />
       <e p="Microsoft.VCRTForwarders.140.csproj" t="IncludeRecursive" />
@@ -345,9 +256,6 @@
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
-      <e p="Unity.WebRTC.csproj" t="IncludeRecursive" />
-      <e p="Unity.WebRTC.Editor.csproj" t="IncludeRecursive" />
-      <e p="Unity.WebRTC.Samples.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>

@@ -219,7 +219,7 @@ namespace AR9.ARGO.MRWebRTC {
         /// "over" - Already answered and offered.
         /// null - Waiting to recieve or send a connection request
         /// </summary>
-        public string initialSdpType = null;
+        [HideInInspector] public string initialSdpType = null;
 
         public override Task SendMessageAsync(SdpMessage message) {
             // Debug.Log("Sending SDP message.");
